@@ -5,4 +5,7 @@
 @font-face {
     font-family: "Circular Std";
     src: url("../fonts/CircularStd-Book.otf");
+
+    font-family: "Monstserrat";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
   }
