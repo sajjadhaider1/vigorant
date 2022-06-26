@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 // markup
 const Header = () => {
   return (
-      <nav className="flex items-center justify-between py-[14px] px-[150px] w-full shadow-md sticky top-0">
+      <nav className="flex items-center justify-between py-[14px] px-[150px] w-full h-24  sticky top-0">
 
         <div className="flex items-end gap-2">
           <StaticImage alt="Vigorant Logo" src="../images/logo.svg" layout="fixed"/>
