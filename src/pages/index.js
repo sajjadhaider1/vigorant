@@ -24,13 +24,13 @@ const content = {
 // markup
 const IndexPage = () => {
   return (
-    <main>
+    <main className="font-circular">
 
-      <nav className="flex items-center justify-between px-20 my-6 ">
-        <StaticImage className="" alt="Vigorant Logo" src="../images/logotype.svg" layout="fixed" height={26} />
-        <div> 
-          <span> Got a question? Just call us at +1 833 641 2200 </span>
-          <button className="bg-[#4975E9] text-white px-[26px] py-[13px] rounded-md "> Get free consultation </button>
+      <nav className="flex items-center justify-between px-20 my-6">
+        <StaticImage className="" alt="Vigorant Logo" src="../images/logotype.svg" layout="fixed" height={40} />
+        <div className="flex items-center space-x-2"> 
+          <span className="text-[#697492] text-xl "> Got a question? Just call us at +1 833 641 2200 </span>
+          <button className="bg-[#4975E9] text-white text-base px-[26px] py-[13px] rounded-md "> Get free consultation </button>
         </div>
       </nav>
       
