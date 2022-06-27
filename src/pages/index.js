@@ -39,17 +39,17 @@ const IndexPage = () => {
         <div className="mt-10 mx-[-66px] ">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 140"><path fill="#E9F0FF" fill-opacity="1" d="M0,64L80,58.7C160,53,320,43,480,42.7C640,43,800,53,960,69.3C1120,85,1280,107,1360,117.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
 
-
           <div className="text-center bg-[#E9F0FF] px-[151px] ">
+
             <div className="text-5xl font-semibold">Get the best strategie right just for you!</div>
             
             <div className="flex my-20">
 
-              <div className="w-1/2">
-                <StaticImage src="../images/revenue.png" alt="Increase revenue!" />
+              <div className="hidden lg:flex lg:w-1/2">
+                <StaticImage src="../images/revenue.png" alt="Increase revenue!" layout="constrained" />
               </div>
               
-              <div className="w-1/2 space-y-2">
+              <div className="w-full space-y-2 lg:w-1/2">
 
                 <div className="flex items-center gap-6">
                   <StaticImage src="../images/greentick.svg" layout="fixed"/>
@@ -78,7 +78,7 @@ const IndexPage = () => {
                 </div>
 
               </div>
-              
+
             </div>
 
           </div>
