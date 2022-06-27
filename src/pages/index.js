@@ -498,7 +498,7 @@ const IndexPage = () => {
       </section>
 
 
-      <section className="bg-[#a0ff9da6] mx-[-66px] flex flex-col items-center gap-10 py-20">
+      <section className="bg-[#D3EFD1] mx-[-66px] flex flex-col items-center gap-10 py-20">
 
         <div className="text-5xl font-bold text-slate-800">What people say about us</div>
 
