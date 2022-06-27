@@ -104,10 +104,10 @@ const IndexPage = () => {
                 </div>
 
                 <div className="flex gap-4 pt-6 pb-20">
-                  <button className="px-5 py-3 font-semibold text-white bg-[#4975E9] rounded-md">
+                  <button className="hover:scale-105 px-5 py-3 font-semibold text-white bg-[#4975E9] rounded-md">
                     See Plans
                   </button>
-                  <button className="px-5 py-3 font-semibold text-[#4975E9] border border-[#4975E9] rounded-md ">
+                  <button className="hover:scale-105 px-5 py-3 font-semibold text-[#4975E9] border border-[#4975E9] rounded-md ">
                     Get free consultation
                   </button>
                 </div>
@@ -248,7 +248,7 @@ const IndexPage = () => {
 
             </div>
 
-            <button className="w-full px-4 py-2 mt-10 text-[#4975E9] border border-[#4975E9] font-semibold tracking-wide capitalize rounded-md">
+            <button className="hover:scale-105 w-full px-4 py-2 mt-10 text-[#4975E9] border border-[#4975E9] font-semibold tracking-wide capitalize rounded-md">
               Get 50% off premium plan
             </button>
           </div>
@@ -355,7 +355,7 @@ const IndexPage = () => {
 
             </div>
 
-            <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-700">
+            <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:scale-105 hover:bg-blue-500 focus:outline-none focus:bg-blue-700">
               Get 50% off premium plan
             </button>
           </div>
@@ -479,7 +479,7 @@ const IndexPage = () => {
 
             </div>
 
-            <button className="w-full px-4 py-2 mt-10 text-[#4975E9] border border-[#4975E9] font-semibold tracking-wide capitalize rounded-md">
+            <button className="hover:scale-105 w-full px-4 py-2 mt-10 text-[#4975E9] border border-[#4975E9] font-semibold tracking-wide capitalize rounded-md">
               Get 50% off premium plan
             </button>
           </div>
@@ -490,6 +490,55 @@ const IndexPage = () => {
 
         </div>
       </section>
+
+
+      <section className="mx-auto my-20 w-[1140px] text-white">
+
+        <div className="rounded-3xl bg-gradient-to-br from-blue-800 via-blue-500 to-blue-700">
+
+          <StaticImage src="../images/shape1.svg" />
+
+          <div className="flex flex-col justify-center gap-6">
+
+            <div className="text-5xl font-semibold text-center">
+            Want to talk about plans? <br/> Or have another question?
+            </div>
+
+            <div className="text-xl font-medium text-center">
+            Your digital consultant will also be able to create kickstart <br/> campaigns that are best suited for your organization and within <br/> your budget.
+            </div>
+
+              <div className="flex justify-center gap-4 mt-6">
+                <button className="px-5 py-3 font-semibold text-white border border-white rounded-md hover:scale-105">
+                Call me back
+                </button>
+                <button className="hover:scale-105 px-5 py-3 font-semibold text-black bg-[#FFC947] rounded-md">
+                Call +1 833 641 2200
+                </button>
+              </div>
+
+          </div>
+
+          <div className="flex justify-end pb-6 pr-6">
+            <StaticImage className="right-0" src="../images/shape2.svg" />
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <footer className="my-20">
+        <div className="flex justify-center divide-x ">
+        <StaticImage className="" src="../images/facebook.svg" />
+        <StaticImage className="" src="../images/google.svg" />
+        <StaticImage className="" src="../images/linkedin.svg" />
+        <StaticImage className="" src="../images/microsoft.svg" />
+        <StaticImage className="" src="../images/yelp.svg" />
+        <StaticImage className="" src="../images/nexthealth.svg" />
+        </div>
+      </footer>
 
 
 
