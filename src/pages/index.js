@@ -5,7 +5,7 @@ import Hero from "../components/hero";
 
 const IndexPage = () => {
   return (
-    <main className="mx-[66px] max-w-[1440px]">
+    <main className="mx-[66px] ">
 
       <title>Vigorant</title>
 
@@ -34,9 +34,26 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <div className="absolute right-0 my-10 bg-blue-200 h-60">
-        <StaticImage src="../images/divider.svg" className="top-[-2px]"/>
-      </div>
+      <section>
+
+        <div className="mt-10 mx-[-66px] ">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 140"><path fill="#E9F0FF" fill-opacity="1" d="M0,64L80,58.7C160,53,320,43,480,42.7C640,43,800,53,960,69.3C1120,85,1280,107,1360,117.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+
+
+          <div className="text-center bg-[#E9F0FF]">
+            <div className="text-5xl font-semibold">Get the best strategie right just for you!</div>
+            <div className="flex my-20">
+              <div className="w-1/2">
+                <StaticImage src="../images/revenue.png" alt="Increase revenue!" />
+              </div>
+              <div className="w-1/2"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
 
 
     </main>

@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="rounded-[100px] bg-[#E9F0FF] py-28 flex justify-between items-center">
         <div className="bg-[#FF9F43] rounded-full h-[30px] w-[30px] absolute left-12 "></div>
         <div className="w-full pr-12 mx-20 space-y-5 lg:w-1/2">
-          <div className="text-6xl font-medium">
+          <div className="text-6xl font-semibold">
             Make your website load faster, optimize your images and boost your
             SEO.
           </div>
