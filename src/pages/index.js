@@ -163,7 +163,7 @@ const IndexPage = () => {
             </h4>
             <p className="mt-4 text-slate-500">Beautifully simple project planning</p>
 
-            <div className="mt-8 space-y-8">
+            <div className="mt-8 space-y-4">
               <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -265,7 +265,7 @@ const IndexPage = () => {
             </h4>
             <p className="mt-4 text-slate-500">Beautifully simple project planning</p>
 
-            <div className="mt-8 space-y-8">
+            <div className="mt-8 space-y-4">
               <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -374,7 +374,7 @@ const IndexPage = () => {
             </h4>
             <p className="mt-4 text-slate-500">Beautifully simple project planning</p>
 
-            <div className="mt-8 space-y-8">
+            <div className="mt-8 space-y-4">
               <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
