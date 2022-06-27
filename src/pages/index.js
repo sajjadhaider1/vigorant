@@ -43,13 +43,13 @@ const IndexPage = () => {
 
             <div className="text-5xl font-semibold">Get the best strategie right just for you!</div>
             
-            <div className="flex my-20">
+            <div className="flex mt-20">
 
               <div className="hidden lg:flex lg:w-1/2">
                 <StaticImage src="../images/revenue.png" alt="Increase revenue!" layout="constrained" />
               </div>
               
-              <div className="w-full space-y-2 lg:w-1/2">
+              <div className="w-full px-6 space-y-2 lg:w-1/2">
 
                 <div className="flex items-center gap-6">
                   <StaticImage src="../images/greentick.svg" layout="fixed"/>
@@ -87,6 +87,17 @@ const IndexPage = () => {
 
       </section>
 
+      <section className="mx-20 my-20">
+        <div className="grid grid-cols-5 rounded-3xl bg-gradient-to-br from-[#fff323] to-orange-400 py-10">
+          <div className="flex justify-center col-span-2">
+            <StaticImage className="" src="../images/sitetraffic.png" />
+          </div>
+          <div className="flex flex-col justify-center col-span-3 gap-6 pr-24">
+            <div className="text-5xl font-semibold text-[#12141D]">We gather high-ranking keywords used by your target audience</div>
+            <div className="text-xl font-medium text-[#12141D]">We keep our customers informed in real-time about what is important to them. We communicate clearly, because in the world of marketing, honesty wins!</div>
+          </div>
+        </div>
+      </section>
 
     </main>
   );
