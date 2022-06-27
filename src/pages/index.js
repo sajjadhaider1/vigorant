@@ -498,7 +498,7 @@ const IndexPage = () => {
       </section>
 
 
-      <section className="bg-[#a0ff9da6] mx-[-66px] flex flex-col items-center gap-10 py-10">
+      <section className="bg-[#a0ff9da6] mx-[-66px] flex flex-col items-center gap-10 py-20">
 
         <div className="text-5xl font-bold text-slate-800">What people say about us</div>
 
@@ -524,6 +524,10 @@ const IndexPage = () => {
       </section>
 
 
+      <div className="mx-[-66px] mt-[-62px]">
+        <svg viewBox="0 0 1440 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 32C222.68 62 963.149 62 1440 0V62H0V32Z" fill="white"/></svg>
+      </div>
 
 
       <section className="mx-auto my-20 w-[1140px] text-white">
