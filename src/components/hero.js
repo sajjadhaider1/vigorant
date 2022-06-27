@@ -4,8 +4,8 @@ import { StaticImage } from "gatsby-plugin-image";
 const Hero = () => {
   return (
     <section className="my-6">
-      <div className="rounded-[100px] bg-[#E9F0FF] py-28 flex justify-between items-center">
-        <div className="bg-[#FF9F43] rounded-full h-[30px] w-[30px] absolute left-12 "></div>
+      <div className="rounded-[100px] bg-[#E9F0FF] py-8 flex justify-between items-center">
+        <div className="bg-[#FF9F43] rounded-full h-[30px] w-[30px] absolute left-12"></div>
         <div className="w-full pr-12 mx-20 space-y-5 lg:w-1/2">
           <div className="text-6xl font-semibold">
             Make your website load faster, optimize your images and boost your
@@ -25,9 +25,10 @@ const Hero = () => {
           </div>
         </div>
         <StaticImage
-          className="absolute right-0 hidden lg:flex"
+          className="right-0 hidden lg:flex"
           src="../images/heroright.png"
           alt="Increase the number of visitors to your website."
+          layout="fixed"
         />
       </div>
     </section>

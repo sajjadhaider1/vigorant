@@ -88,7 +88,7 @@ const IndexPage = () => {
       </section>
 
       <section className="mx-20 my-20">
-        <div className="grid grid-cols-5 rounded-3xl bg-gradient-to-br from-[#fff323] to-orange-400 py-10">
+        <div className="grid grid-cols-5 rounded-3xl bg-gradient-to-br from-[#fcf8b4] to-orange-400 py-10">
           <div className="flex justify-center col-span-2">
             <StaticImage className="" src="../images/sitetraffic.png" />
           </div>
@@ -97,6 +97,21 @@ const IndexPage = () => {
             <div className="text-xl font-medium text-[#12141D]">We keep our customers informed in real-time about what is important to them. We communicate clearly, because in the world of marketing, honesty wins!</div>
           </div>
         </div>
+      </section>
+
+      <section className="bg-[#E9F0FF] mx-[-66px] py-10 space-y-4">
+
+        <div className="flex flex-col items-center gap-2">
+          <div className="text-5xl font-semibold text-[#050238]">Plans which turn your business to the new level</div>
+          <div className="text-xl text-[#697492] font-semibold">We've made the best plans right just for you</div>
+        </div>
+
+        <div className="flex justify-around px-20">
+          <div className="w-40 bg-white rounded-lg h-96"></div>
+          <div className="w-40 bg-white rounded-lg h-96"></div>
+          <div className="w-40 bg-white rounded-lg h-96"></div>
+        </div>
+
       </section>
 
     </main>
