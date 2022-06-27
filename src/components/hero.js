@@ -16,10 +16,10 @@ const Hero = () => {
             organically at the top of the major search engines results pages.
           </div>
           <div className="flex justify-start gap-5 text-base font-medium">
-            <button className="px-5 py-3 text-white bg-[#4975E9] rounded-md">
+            <button className="px-5 py-3 text-white bg-[#4975E9] rounded-md font-semibold">
               Get 50% off SEO Plan
             </button>
-            <button className="px-5 py-3 text-[#4975E9] border border-[#4975E9]  rounded-md ">
+            <button className="px-5 py-3 text-[#4975E9] border border-[#4975E9]  rounded-md font-semibold ">
               Get free consultation
             </button>
           </div>
