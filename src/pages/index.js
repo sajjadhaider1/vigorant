@@ -136,7 +136,7 @@ const IndexPage = () => {
       </section>
 
       <section className="bg-[#E9F0FF] mx-[-66px] py-10 space-y-4">
-        <div className="flex flex-col items-center gap-2">
+        <div className="flex flex-col items-center gap-2 my-10">
           <div className="text-5xl font-semibold text-[#050238]">
             Plans which turn your business to the new level
           </div>
@@ -149,18 +149,25 @@ const IndexPage = () => {
 
           <div className="grow" />
           
-          <div class="px-6 py-4 rounded-lg bg-white ">
-            <p class="text-lg font-semibold">Intro</p>
-            <h4 class="mt-2 text-4xl font-semibold">
-              $5 <span class="text-slate-450 text-base font-normal">/ Month</span>
+          <div className="px-6 py-4 bg-white rounded-lg ">
+
+            <div className="flex items-center justify-between mb-4">
+              <p className="text-lg font-semibold">Basic</p>
+              <div className="bg-green-100 text-[#28C76F] font-bold rounded-md px-1 py-1 text-center">Save 50%</div>
+            </div>
+
+
+            <h4 className="mt-2 text-4xl font-semibold">
+            <p className="text-lg line-through text-slate-300">$10</p>
+              $5 <span className="text-base font-normal text-slate-450">/ Month</span>
             </h4>
-            <p class="mt-4 text-slate-500">Beautifully simple project planning</p>
+            <p className="mt-4 text-slate-500">Beautifully simple project planning</p>
 
-            <div class="mt-8 space-y-8">
-              <div class="flex items-center">
+            <div className="mt-8 space-y-8">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -171,13 +178,13 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium ">24/7 Support</span>
+                <span className="mx-4 font-medium ">24/7 Support</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -188,77 +195,81 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium">Instant Backup</span>
+                <span className="mx-4 font-medium">Instant Backup</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 fill-slate-200"
+                  className="w-5 h-5 fill-slate-200"
                   viewBox="0 0 20 20"
                   >
                   <path d="M8.41 7L12.71 2.71C12.8983 2.5217 13.0041 2.2663 13.0041 2C13.0041 1.7337 12.8983 1.47831 12.71 1.29C12.5217 1.1017 12.2663 0.995911 12 0.995911C11.7337 0.995911 11.4783 1.1017 11.29 1.29L7 5.59L2.71 1.29C2.5217 1.1017 2.2663 0.995911 2 0.995911C1.7337 0.995911 1.4783 1.1017 1.29 1.29C1.1017 1.47831 0.995908 1.7337 0.995908 2C0.995908 2.2663 1.1017 2.5217 1.29 2.71L5.59 7L1.29 11.29C1.19627 11.383 1.12188 11.4936 1.07111 11.6154C1.02034 11.7373 0.994202 11.868 0.994202 12C0.994202 12.132 1.02034 12.2627 1.07111 12.3846C1.12188 12.5064 1.19627 12.617 1.29 12.71C1.38296 12.8037 1.49356 12.8781 1.61542 12.9289C1.73728 12.9797 1.86799 13.0058 2 13.0058C2.13201 13.0058 2.26272 12.9797 2.38458 12.9289C2.50644 12.8781 2.61704 12.8037 2.71 12.71L7 8.41L11.29 12.71C11.383 12.8037 11.4936 12.8781 11.6154 12.9289C11.7373 12.9797 11.868 13.0058 12 13.0058C12.132 13.0058 12.2627 12.9797 12.3846 12.9289C12.5064 12.8781 12.617 12.8037 12.71 12.71C12.8037 12.617 12.8781 12.5064 12.9289 12.3846C12.9797 12.2627 13.0058 12.132 13.0058 12C13.0058 11.868 12.9797 11.7373 12.9289 11.6154C12.8781 11.4936 12.8037 11.383 12.71 11.29L8.41 7Z"/>
                 </svg>
 
-                <span class="mx-4 font-medium text-slate-200">Instant Backup</span>
+                <span className="mx-4 font-medium text-slate-200">Instant Backup</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 fill-slate-200"
+                  className="w-5 h-5 fill-slate-200"
                   viewBox="0 0 20 20"
                   >
                   <path d="M8.41 7L12.71 2.71C12.8983 2.5217 13.0041 2.2663 13.0041 2C13.0041 1.7337 12.8983 1.47831 12.71 1.29C12.5217 1.1017 12.2663 0.995911 12 0.995911C11.7337 0.995911 11.4783 1.1017 11.29 1.29L7 5.59L2.71 1.29C2.5217 1.1017 2.2663 0.995911 2 0.995911C1.7337 0.995911 1.4783 1.1017 1.29 1.29C1.1017 1.47831 0.995908 1.7337 0.995908 2C0.995908 2.2663 1.1017 2.5217 1.29 2.71L5.59 7L1.29 11.29C1.19627 11.383 1.12188 11.4936 1.07111 11.6154C1.02034 11.7373 0.994202 11.868 0.994202 12C0.994202 12.132 1.02034 12.2627 1.07111 12.3846C1.12188 12.5064 1.19627 12.617 1.29 12.71C1.38296 12.8037 1.49356 12.8781 1.61542 12.9289C1.73728 12.9797 1.86799 13.0058 2 13.0058C2.13201 13.0058 2.26272 12.9797 2.38458 12.9289C2.50644 12.8781 2.61704 12.8037 2.71 12.71L7 8.41L11.29 12.71C11.383 12.8037 11.4936 12.8781 11.6154 12.9289C11.7373 12.9797 11.868 13.0058 12 13.0058C12.132 13.0058 12.2627 12.9797 12.3846 12.9289C12.5064 12.8781 12.617 12.8037 12.71 12.71C12.8037 12.617 12.8781 12.5064 12.9289 12.3846C12.9797 12.2627 13.0058 12.132 13.0058 12C13.0058 11.868 12.9797 11.7373 12.9289 11.6154C12.8781 11.4936 12.8037 11.383 12.71 11.29L8.41 7Z"/>
                 </svg>
 
-                <span class="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 fill-slate-200"
+                  className="w-5 h-5 fill-slate-200"
                   viewBox="0 0 20 20"
                   >
                   <path d="M8.41 7L12.71 2.71C12.8983 2.5217 13.0041 2.2663 13.0041 2C13.0041 1.7337 12.8983 1.47831 12.71 1.29C12.5217 1.1017 12.2663 0.995911 12 0.995911C11.7337 0.995911 11.4783 1.1017 11.29 1.29L7 5.59L2.71 1.29C2.5217 1.1017 2.2663 0.995911 2 0.995911C1.7337 0.995911 1.4783 1.1017 1.29 1.29C1.1017 1.47831 0.995908 1.7337 0.995908 2C0.995908 2.2663 1.1017 2.5217 1.29 2.71L5.59 7L1.29 11.29C1.19627 11.383 1.12188 11.4936 1.07111 11.6154C1.02034 11.7373 0.994202 11.868 0.994202 12C0.994202 12.132 1.02034 12.2627 1.07111 12.3846C1.12188 12.5064 1.19627 12.617 1.29 12.71C1.38296 12.8037 1.49356 12.8781 1.61542 12.9289C1.73728 12.9797 1.86799 13.0058 2 13.0058C2.13201 13.0058 2.26272 12.9797 2.38458 12.9289C2.50644 12.8781 2.61704 12.8037 2.71 12.71L7 8.41L11.29 12.71C11.383 12.8037 11.4936 12.8781 11.6154 12.9289C11.7373 12.9797 11.868 13.0058 12 13.0058C12.132 13.0058 12.2627 12.9797 12.3846 12.9289C12.5064 12.8781 12.617 12.8037 12.71 12.71C12.8037 12.617 12.8781 12.5064 12.9289 12.3846C12.9797 12.2627 13.0058 12.132 13.0058 12C13.0058 11.868 12.9797 11.7373 12.9289 11.6154C12.8781 11.4936 12.8037 11.383 12.71 11.29L8.41 7Z"/>
                 </svg>
 
-                <span class="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 fill-slate-200"
+                  className="w-5 h-5 fill-slate-200"
                   viewBox="0 0 20 20"
                   >
                   <path d="M8.41 7L12.71 2.71C12.8983 2.5217 13.0041 2.2663 13.0041 2C13.0041 1.7337 12.8983 1.47831 12.71 1.29C12.5217 1.1017 12.2663 0.995911 12 0.995911C11.7337 0.995911 11.4783 1.1017 11.29 1.29L7 5.59L2.71 1.29C2.5217 1.1017 2.2663 0.995911 2 0.995911C1.7337 0.995911 1.4783 1.1017 1.29 1.29C1.1017 1.47831 0.995908 1.7337 0.995908 2C0.995908 2.2663 1.1017 2.5217 1.29 2.71L5.59 7L1.29 11.29C1.19627 11.383 1.12188 11.4936 1.07111 11.6154C1.02034 11.7373 0.994202 11.868 0.994202 12C0.994202 12.132 1.02034 12.2627 1.07111 12.3846C1.12188 12.5064 1.19627 12.617 1.29 12.71C1.38296 12.8037 1.49356 12.8781 1.61542 12.9289C1.73728 12.9797 1.86799 13.0058 2 13.0058C2.13201 13.0058 2.26272 12.9797 2.38458 12.9289C2.50644 12.8781 2.61704 12.8037 2.71 12.71L7 8.41L11.29 12.71C11.383 12.8037 11.4936 12.8781 11.6154 12.9289C11.7373 12.9797 11.868 13.0058 12 13.0058C12.132 13.0058 12.2627 12.9797 12.3846 12.9289C12.5064 12.8781 12.617 12.8037 12.71 12.71C12.8037 12.617 12.8781 12.5064 12.9289 12.3846C12.9797 12.2627 13.0058 12.132 13.0058 12C13.0058 11.868 12.9797 11.7373 12.9289 11.6154C12.8781 11.4936 12.8037 11.383 12.71 11.29L8.41 7Z"/>
                 </svg>
 
-                <span class="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
               </div>
 
             </div>
 
-            <button class="w-full px-4 py-2 mt-10 text-[#4975E9] border border-[#4975E9] font-semibold tracking-wide capitalize rounded-md">
+            <button className="w-full px-4 py-2 mt-10 text-[#4975E9] border border-[#4975E9] font-semibold tracking-wide capitalize rounded-md">
               Get 50% off premium plan
             </button>
           </div>
 
 
-          <div class="px-6 py-4 rounded-lg bg-white ">
-            <p class="text-lg font-semibold">Premium</p>
-            <h4 class="mt-2 text-4xl font-semibold">
-              $10 <span class="text-slate-500 text-base font-normal">/ Month</span>
+          <div className="px-6 py-4 bg-white rounded-lg ">
+          <div className="flex items-center justify-between mb-4">
+              <p className="text-lg font-semibold">Premium</p>
+              <div className="bg-green-100 text-[#28C76F] font-bold rounded-md px-1 py-1 text-center">Save 50%</div>
+            </div>
+            <h4 className="mt-2 text-4xl font-semibold">
+            <p className="text-lg line-through text-slate-300">$20</p>
+              $10 <span className="text-base font-normal text-slate-500">/ Month</span>
             </h4>
-            <p class="mt-4 text-slate-500">Beautifully simple project planning</p>
+            <p className="mt-4 text-slate-500">Beautifully simple project planning</p>
 
-            <div class="mt-8 space-y-8">
-              <div class="flex items-center">
+            <div className="mt-8 space-y-8">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -269,13 +280,13 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium ">24/7 Support</span>
+                <span className="mx-4 font-medium ">24/7 Support</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -286,13 +297,13 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium">Instant Backup</span>
+                <span className="mx-4 font-medium">Instant Backup</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -303,65 +314,71 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium">10 GB Storage</span>
+                <span className="mx-4 font-medium">10 GB Storage</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 fill-slate-200"
+                  className="w-5 h-5 fill-slate-200"
                   viewBox="0 0 20 20"
                   >
                   <path d="M8.41 7L12.71 2.71C12.8983 2.5217 13.0041 2.2663 13.0041 2C13.0041 1.7337 12.8983 1.47831 12.71 1.29C12.5217 1.1017 12.2663 0.995911 12 0.995911C11.7337 0.995911 11.4783 1.1017 11.29 1.29L7 5.59L2.71 1.29C2.5217 1.1017 2.2663 0.995911 2 0.995911C1.7337 0.995911 1.4783 1.1017 1.29 1.29C1.1017 1.47831 0.995908 1.7337 0.995908 2C0.995908 2.2663 1.1017 2.5217 1.29 2.71L5.59 7L1.29 11.29C1.19627 11.383 1.12188 11.4936 1.07111 11.6154C1.02034 11.7373 0.994202 11.868 0.994202 12C0.994202 12.132 1.02034 12.2627 1.07111 12.3846C1.12188 12.5064 1.19627 12.617 1.29 12.71C1.38296 12.8037 1.49356 12.8781 1.61542 12.9289C1.73728 12.9797 1.86799 13.0058 2 13.0058C2.13201 13.0058 2.26272 12.9797 2.38458 12.9289C2.50644 12.8781 2.61704 12.8037 2.71 12.71L7 8.41L11.29 12.71C11.383 12.8037 11.4936 12.8781 11.6154 12.9289C11.7373 12.9797 11.868 13.0058 12 13.0058C12.132 13.0058 12.2627 12.9797 12.3846 12.9289C12.5064 12.8781 12.617 12.8037 12.71 12.71C12.8037 12.617 12.8781 12.5064 12.9289 12.3846C12.9797 12.2627 13.0058 12.132 13.0058 12C13.0058 11.868 12.9797 11.7373 12.9289 11.6154C12.8781 11.4936 12.8037 11.383 12.71 11.29L8.41 7Z"/>
                 </svg>
 
-                <span class="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 fill-slate-200"
+                  className="w-5 h-5 fill-slate-200"
                   viewBox="0 0 20 20"
                   >
                   <path d="M8.41 7L12.71 2.71C12.8983 2.5217 13.0041 2.2663 13.0041 2C13.0041 1.7337 12.8983 1.47831 12.71 1.29C12.5217 1.1017 12.2663 0.995911 12 0.995911C11.7337 0.995911 11.4783 1.1017 11.29 1.29L7 5.59L2.71 1.29C2.5217 1.1017 2.2663 0.995911 2 0.995911C1.7337 0.995911 1.4783 1.1017 1.29 1.29C1.1017 1.47831 0.995908 1.7337 0.995908 2C0.995908 2.2663 1.1017 2.5217 1.29 2.71L5.59 7L1.29 11.29C1.19627 11.383 1.12188 11.4936 1.07111 11.6154C1.02034 11.7373 0.994202 11.868 0.994202 12C0.994202 12.132 1.02034 12.2627 1.07111 12.3846C1.12188 12.5064 1.19627 12.617 1.29 12.71C1.38296 12.8037 1.49356 12.8781 1.61542 12.9289C1.73728 12.9797 1.86799 13.0058 2 13.0058C2.13201 13.0058 2.26272 12.9797 2.38458 12.9289C2.50644 12.8781 2.61704 12.8037 2.71 12.71L7 8.41L11.29 12.71C11.383 12.8037 11.4936 12.8781 11.6154 12.9289C11.7373 12.9797 11.868 13.0058 12 13.0058C12.132 13.0058 12.2627 12.9797 12.3846 12.9289C12.5064 12.8781 12.617 12.8037 12.71 12.71C12.8037 12.617 12.8781 12.5064 12.9289 12.3846C12.9797 12.2627 13.0058 12.132 13.0058 12C13.0058 11.868 12.9797 11.7373 12.9289 11.6154C12.8781 11.4936 12.8037 11.383 12.71 11.29L8.41 7Z"/>
                 </svg>
 
-                <span class="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 fill-slate-200"
+                  className="w-5 h-5 fill-slate-200"
                   viewBox="0 0 20 20"
                   >
                   <path d="M8.41 7L12.71 2.71C12.8983 2.5217 13.0041 2.2663 13.0041 2C13.0041 1.7337 12.8983 1.47831 12.71 1.29C12.5217 1.1017 12.2663 0.995911 12 0.995911C11.7337 0.995911 11.4783 1.1017 11.29 1.29L7 5.59L2.71 1.29C2.5217 1.1017 2.2663 0.995911 2 0.995911C1.7337 0.995911 1.4783 1.1017 1.29 1.29C1.1017 1.47831 0.995908 1.7337 0.995908 2C0.995908 2.2663 1.1017 2.5217 1.29 2.71L5.59 7L1.29 11.29C1.19627 11.383 1.12188 11.4936 1.07111 11.6154C1.02034 11.7373 0.994202 11.868 0.994202 12C0.994202 12.132 1.02034 12.2627 1.07111 12.3846C1.12188 12.5064 1.19627 12.617 1.29 12.71C1.38296 12.8037 1.49356 12.8781 1.61542 12.9289C1.73728 12.9797 1.86799 13.0058 2 13.0058C2.13201 13.0058 2.26272 12.9797 2.38458 12.9289C2.50644 12.8781 2.61704 12.8037 2.71 12.71L7 8.41L11.29 12.71C11.383 12.8037 11.4936 12.8781 11.6154 12.9289C11.7373 12.9797 11.868 13.0058 12 13.0058C12.132 13.0058 12.2627 12.9797 12.3846 12.9289C12.5064 12.8781 12.617 12.8037 12.71 12.71C12.8037 12.617 12.8781 12.5064 12.9289 12.3846C12.9797 12.2627 13.0058 12.132 13.0058 12C13.0058 11.868 12.9797 11.7373 12.9289 11.6154C12.8781 11.4936 12.8037 11.383 12.71 11.29L8.41 7Z"/>
                 </svg>
 
-                <span class="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium text-slate-200">Unlimited Bandwith</span>
               </div>
 
             </div>
 
-            <button class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-700">
+            <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-700">
               Get 50% off premium plan
             </button>
           </div>
 
 
-          <div class="px-6 py-4 rounded-lg bg-white ">
-            <p class="text-lg font-semibold">Business</p>
-            <h4 class="mt-2 text-4xl font-semibold">
-              $100 <span class="text-slate5400 text-base font-normal">/ Month</span>
+          <div className="px-6 py-4 bg-white rounded-lg ">
+
+            <div className="flex items-center justify-between mb-4">
+              <p className="text-lg font-semibold">Business</p>
+              <div className="bg-green-100 text-[#28C76F] font-bold rounded-md px-1 py-1 text-center">Save 50%</div>
+            </div>
+
+            <h4 className="mt-2 text-4xl font-semibold">
+              <p className="text-lg line-through text-slate-300">$50</p>
+              $100 <span className="text-base font-normal text-slate5400">/ Month</span>
             </h4>
-            <p class="mt-4 text-slate-500">Beautifully simple project planning</p>
+            <p className="mt-4 text-slate-500">Beautifully simple project planning</p>
 
-            <div class="mt-8 space-y-8">
-              <div class="flex items-center">
+            <div className="mt-8 space-y-8">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -372,13 +389,13 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium ">24/7 Support</span>
+                <span className="mx-4 font-medium ">24/7 Support</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -389,13 +406,13 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium">Instant Backup</span>
+                <span className="mx-4 font-medium">Instant Backup</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -406,13 +423,13 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium">10 GB Storage</span>
+                <span className="mx-4 font-medium">10 GB Storage</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -423,13 +440,13 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium">Unlimited Bandwith</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -440,13 +457,13 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium">Unlimited Bandwith</span>
               </div>
 
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5 text-blue-600"
+                  className="w-5 h-5 text-blue-600"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -457,12 +474,12 @@ const IndexPage = () => {
                   />
                 </svg>
 
-                <span class="mx-4 font-medium">Unlimited Bandwith</span>
+                <span className="mx-4 font-medium">Unlimited Bandwith</span>
               </div>
 
             </div>
 
-            <button class="w-full px-4 py-2 mt-10 text-[#4975E9] border border-[#4975E9] font-semibold tracking-wide capitalize rounded-md">
+            <button className="w-full px-4 py-2 mt-10 text-[#4975E9] border border-[#4975E9] font-semibold tracking-wide capitalize rounded-md">
               Get 50% off premium plan
             </button>
           </div>
