@@ -6,11 +6,14 @@ import Hero from "../components/hero";
 const IndexPage = () => {
   return (
     <main className="mx-[66px] ">
+
+
       <title>Vigorant</title>
 
       <Header />
 
       <Hero />
+
 
       <section className="flex flex-col items-center my-20 space-y-6 text-center">
         <div className="w-3/4 text-5xl font-semibold">
@@ -41,6 +44,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+
 
       <section>
         <div className="mt-10 mx-[-66px] ">
@@ -117,6 +121,7 @@ const IndexPage = () => {
         </div>
       </section>
 
+
       <section className="mx-20 my-20">
         <div className="grid grid-cols-5 rounded-3xl bg-gradient-to-br from-[#fcf8b4] to-orange-400 py-10">
           <div className="flex justify-center col-span-2">
@@ -134,6 +139,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+
 
       <section className="bg-[#E9F0FF] mx-[-66px] py-10 space-y-4">
         <div className="flex flex-col items-center gap-2 my-10">
@@ -492,6 +498,34 @@ const IndexPage = () => {
       </section>
 
 
+      <section className="bg-[#a0ff9da6] mx-[-66px] flex flex-col items-center gap-10 py-10">
+
+        <div className="text-5xl font-bold text-slate-800">What people say about us</div>
+
+        <div className="p-8 w-[1140px] bg-white rounded-xl">
+
+          <div className="flex gap-4 py-4 ">
+
+            <StaticImage className="" src="../images/avatar.png" />
+
+            <div>
+
+              <div className="text-xl font-bold">Sayed H.</div>
+              <div className="text-lg text-slate-500">Ben Sean International</div>
+
+            </div>
+
+          </div>
+
+          <div className="text-base font-medium text-slate-500">We have been a longtime client of Vigorant for almost all of the services they offer. These guys are great. Sometimes we have a last minute request for a marketing campaign or social media post and within hours they have it all taken care of. Especially when it comes to promote a newly listed property for sales, they are a big help to make the whole community aware and informed. Thanks again!</div>
+
+        </div>
+
+      </section>
+
+
+
+
       <section className="mx-auto my-20 w-[1140px] text-white">
 
         <div className="rounded-3xl bg-gradient-to-br from-blue-800 via-blue-500 to-blue-700">
@@ -528,7 +562,6 @@ const IndexPage = () => {
       </section>
 
 
-
       <footer className="my-20">
         <div className="flex justify-center divide-x ">
         <StaticImage className="" src="../images/facebook.svg" />
@@ -539,7 +572,6 @@ const IndexPage = () => {
         <StaticImage className="" src="../images/nexthealth.svg" />
         </div>
       </footer>
-
 
 
     </main>
