@@ -1,5 +1,5 @@
 import * as React from "react";
-// import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 import Header from "../components/header";
 import Hero from "../components/hero";
 
@@ -33,6 +33,11 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+
+      <div className="absolute right-0 my-10 bg-blue-200 h-60">
+        <StaticImage src="../images/divider.svg" className="top-[-2px]"/>
+      </div>
+
 
     </main>
   );
